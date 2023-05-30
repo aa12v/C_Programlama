@@ -1,0 +1,326 @@
+__________________________________________________________________________________
+Gün 1-3: Temel Elektronik
+
+1- Temel elektronik bileşenlerinin (dirençler, kondansatörler, transistörler vb.) tanıtımı
+2- Devre analizi ve Ohm'un Yasası
+3- Elektronik devrelerin temel prensipleri
+
+
+Gün 1: Temel Elektronik
+
+1- Temel Elektronik Bileşenler:
+-Dirençler: Direnç değerleri, renk kodlama sistemi, direnç hesaplamaları
+-Kondansatörler: Kondansatör tipleri, kapasite hesaplamaları, şarj ve deşarj süreleri
+-Transistörler: Transistör tipleri (BJT, MOSFET), çalışma prensipleri, transistör devreleri
+
+Gün 2: Devre Analizi ve Ohm'un Yasası
+
+2- Ohm'un Yasası:
+-Akım, gerilim ve direnç ilişkisi
+-Seri ve paralel devrelerde Ohm'un Yasası'nın uygulanması
+2- Kirchhoff Yasaları:
+-Kirchhoff Akım Yasası (KAY)
+-Kirchhoff Gerilim Yasası (KGY)
+-Kirchhoff Yasaları'nın devre analizinde kullanımı
+
+Gün 3: Elektronik Devrelerin Temel Prensipleri
+
+3- Devre Elemanları:
+-Diyotlar: Diyot tipleri (gerilim doğrultma, Zener, LED vb.), diyot devreleri ve uygulamaları
+-Transistörlerin Amplifikasyonu: Transistörün amplifikasyon prensipleri, DC ve AC analizi
+3- Güç Kaynakları:
+-Doğru akım (DC) güç kaynakları: Doğrultma devreleri, regülatörler
+-Alternatif akım (AC) güç kaynakları: Transformatörler, AC gerilim düzenleme
+__________________________________________________________________________________
+Gün 4-6: Dijital Elektronik ve Mantık Tasarımı
+
+1- Dijital mantığın temelleri (kapılar, kodlayıcılar, çeviriciler, flip-flop'lar vb.)
+2- Dijital devrelerin tasarımı ve analizi
+3- Karnaugh haritaları ve Boolean cebri
+
+
+Gün 4: Dijital Mantığın Temelleri
+
+1- Kapılar ve Mantık Fonksiyonları:
+-NOT, AND, OR, XOR, NAND, NOR, XNOR kapıları
+-Kapıların doğrultusu ve gerçekleme yöntemleri
+1- Kombinasyonel Mantık Devreleri:
+-Kodlayıcılar, çeviriciler, multiplexer'lar, demultiplexer'lar
+-Kombinasyonel devre tasarımı ve analizi
+
+Gün 5: Dijital Devrelerin Tasarımı ve Analizi
+
+2- Dijital Entegre Devreler (IC'ler):
+-Entegre devrelerin tipleri ve özellikleri
+-Özel amaçlı entegre devreler (örneğin, sayıcılar, kaydırma kayıtları, bellekler)
+2- Dijital Devre Analizi:
+-Karnaugh haritaları ve minimizasyon yöntemleri
+-Birleşim ve dönüşüm tabloları, logic analyzer kullanımı
+
+Gün 6: Boolean Cebri ve Dijital Devre Tasarımı
+
+3- Boolean Cebri:
+-Boolean ifadeler, temel operatörler (AND, OR, NOT)
+-Boolean fonksiyonların ifade edilmesi ve basitleştirilmesi
+3- Dijital Devre Tasarımı:
+-Flip-flop'lar (SR, D, JK, T), sayaçlar
+-Dijital devrelerin zamanlama analizi ve senkronizasyonu
+
+__________________________________________________________________________________
+Gün 7-10: Mikrodenetleyiciler
+
+1- Mikrodenetleyicilerin temelleri ve mimarisi
+2- Programlama dilleri ve derleyiciler (C, C++)
+3- Mikrodenetleyici programlama ortamı ve araçları
+
+
+Gün 7: Mikrodenetleyicilerin Temelleri ve Mimarisi
+
+1- Mikrodenetleyici Nedir?
+-Mikrodenetleyici kavramı ve temel işlevleri
+-Mikrodenetleyicilerin avantajları ve uygulama alanları
+1- Mikrodenetleyici Mimarisinin Temelleri:
+-CPU (Merkezi İşlem Birimi), bellek birimleri, giriş/çıkış birimleri
+-Mikrodenetleyici mimarileri (RISC, CISC), veri yolları ve kontrol birimleri
+
+Gün 8: Programlama Dilleri ve Derleyiciler
+
+2- Mikrodenetleyici Programlama Dilleri:
+-C ve C++ dillerinin mikrodenetleyici programlamada kullanımı
+-Dil seçimi ve dikkat edilmesi gerekenler
+2- Mikrodenetleyici Derleyicileri ve Entegre Geliştirme Ortamları (IDE):
+-Derleyicilerin ve IDE'lerin tanımı ve kullanımı
+-Popüler mikrodenetleyici derleyicileri ve IDE'leri (örneğin, GCC, Keil, MPLAB X)
+
+Gün 9: Mikrodenetleyici Programlama Ortamı ve Araçları
+
+3- Mikrodenetleyici Programlama Ortamı:
+-Programlama araçları (derleyici, linker, aygıt programlayıcılar)
+-Hata ayıklama ve simülasyon araçları
+3- Mikrodenetleyici Programlama Kütüphaneleri:
+-Standart mikrodenetleyici kütüphaneleri (örneğin, Arduino, CMSIS)
+-Özel amaçlı kütüphaneler (örneğin, sensör kütüphaneleri, ekran kütüphaneleri)
+
+Gün 10: Mikrodenetleyici Uygulamaları ve Proje Geliştirme
+
+4- Mikrodenetleyici Uygulamaları:
+-Sensör ve aktuatörlerin mikrodenetleyicilerle entegrasyonu
+-Veri alışverişi, veri işleme ve kontrol uygulamaları
+4- Mikrodenetleyici Proje Geliştirme:
+-Proje planlama ve tasarımı
+-Donanım ve yazılım entegrasyonu, test etme ve hata ayıklama
+__________________________________________________________________________________
+Gün 11-14: Dijital Sistemler ve Veri Yolları
+
+1- Dijital sistemlerin tasarımı ve analizi
+2- Veri yolları ve veri transferi
+3- Bellek ve bellek yönetimi
+
+
+Gün 11: Dijital Sistemlerin Analizi ve Tasarımı
+
+1- Dijital Sistemlerin Analizi:
+-Dijital sistemlerin işlevlerini analiz etme
+-Kombinasyonel ve ardışık devrelerin analizi
+1- Dijital Sistemlerin Tasarımı:
+-İşlevsel gereksinimlerin belirlenmesi
+-Kombinasyonel ve ardışık devrelerin tasarımı
+
+Gün 12: Veri Yolları ve Bilgisayar Mimarisi
+
+2- Veri Yolları:
+-Veri yolu kavramı ve bileşenleri
+-Veri yolu genişliği, hızı ve protokolleri
+2- Bilgisayar Mimarisi:
+-Von Neumann mimarisi
+-İşlemci, bellek, giriş/çıkış birimlerinin organizasyonu
+
+Gün 13: Bellek Sistemleri ve Veri Depolama
+
+3- Bellek Sistemleri:
+-Bellek tipleri (SRAM, DRAM, ROM)
+-Bellek organizasyonu ve yönetimi
+3- Veri Depolama:
+-Sabit diskler, flaş bellekler, optik depolama birimleri
+-Veri depolama protokolleri ve dosya sistemleri
+
+Gün 14: Dijital Sistemlerin Performans Analizi ve Optimizasyonu
+
+4- Dijital Sistem Performans Analizi:
+-Gecikme zamanı, frekans ve bant genişliği hesaplamaları
+-Sistem tasarımında performans faktörlerinin değerlendirilmesi
+4- Dijital Sistem Optimizasyonu:
+-Gecikme zamanını azaltma teknikleri
+-Paralelleştirme, donanım hızlandırma ve bellek optimizasyonu
+__________________________________________________________________________________
+Gün 15-18: Gerçek Zamanlı Sistemler ve İşletim Sistemleri
+
+1- Gerçek zamanlı sistemlerin temelleri
+2- Gömülü işletim sistemleri ve programlama
+3- İşlemci seçimi ve sistem tasarımı
+
+
+Gün 15: Gerçek Zamanlı Sistemlerin Temelleri
+
+1- Gerçek Zamanlı Sistem Nedir?
+-Gerçek zamanlı sistemlerin tanımı ve özellikleri
+-Zaman kısıtlamaları ve hata toleransı
+1- Gerçek Zamanlı Sistemlerin Uygulama Alanları:
+-Gömülü sistemler, otomotiv, tıp, endüstriyel kontrol vb.
+
+Gün 16: Gerçek Zamanlı İşletim Sistemleri
+
+2- Gerçek Zamanlı İşletim Sistemlerinin Özellikleri:
+-Zamanlama, öncelikler, kesmeler (interrupts)
+-Zaman sıkıştırma, kesintisiz işlem garantisi
+2- Gerçek Zamanlı İşletim Sistemlerinin Çeşitleri:
+-Sabit öncelikli (Fixed-priority), dinamik öncelikli (Dynamic-priority) vb.
+-Örnek gerçek zamanlı işletim sistemleri (örneğin, FreeRTOS, QNX)
+
+Gün 17: Gerçek Zamanlı Sistem Tasarımı ve Analizi
+
+3- Gerçek Zamanlı Sistem Tasarımı:
+-Zaman sıkıştırma algoritmaları ve teknikleri
+-Kaynak tahsisi ve planlama stratejileri
+3- Gerçek Zamanlı Sistem Analizi:
+-Sistem performansı ve zaman kısıtlamalarının değerlendirilmesi
+-Gecikme analizi, deterministiklik ve kesme yönetimi
+
+Gün 18: Gerçek Zamanlı Sistemlerde Güvenlik ve Sorun Giderme
+
+4- Gerçek Zamanlı Sistemlerde Güvenlik:
+-Veri bütünlüğü, kimlik doğrulama, yetkilendirme
+-Güvenlik tehditleri ve önlemler
+4- Gerçek Zamanlı Sistemlerde Sorun Giderme:
+-Hata ayıklama ve hata bulma teknikleri
+-Performans optimizasyonu ve iyileştirme yöntemleri
+__________________________________________________________________________________
+Gün 19-22: Donanım-Arayüz Tasarımı
+
+1- Harici cihazlarla iletişim protokolleri (UART, I2C, SPI vb.)
+2- Donanım-arayüz tasarımı ve devreler
+3- Sensörlerin entegrasyonu ve veri toplama
+
+
+Gün 19: Arayüzlerin Temelleri
+
+1- Arayüz Nedir?
+-Donanım ve yazılım arasındaki iletişimi sağlama
+-Arayüz tipleri (seri, paralel, analog, dijital vb.)
+1- Arayüz Tasarımı:
+-Arayüz gereksinimlerinin belirlenmesi
+-Protokol seçimi ve uyumluluk
+
+Gün 20: Haberleşme ve Veri İletişimi
+
+2- Haberleşme Protokolleri:
+-Seri haberleşme (UART, SPI, I2C)
+-Paralel haberleşme (PCI, ISA, USB)
+2- Veri İletişimi:
+-Veri formatları (ASCII, binary, hex)
+-Veri doğrulama ve hata düzeltme teknikleri
+
+Gün 21: Arayüz Devre Tasarımı
+
+3- Arayüz Devre Elemanları:
+-Çeviriciler, sürücüler, transceiver'lar
+-Seviye dönüştürücüler, multiplexer'lar, demultiplexer'lar
+3- Arayüz Devre Tasarımı:
+-Donanım devrelerinin çizimi ve montajı
+-PCB tasarımı ve baskı devre üretimi
+
+Gün 22: Donanım-Arayüz Test ve Sorun Giderme
+
+4- Arayüz Test Yöntemleri:
+-Veri doğrulama testleri
+-İletişim hızı ve güvenilirlik testleri
+4- Arayüz Sorun Giderme:
+-Sinyal analizi ve hata bulma teknikleri
+-Veri iletişimi sorunlarının çözümü
+__________________________________________________________________________________
+Gün 23-26: Gömülü Yazılım Geliştirme
+
+1- Gömülü yazılım tasarımı ve mimarisi
+2- Gömülü yazılım geliştirme dilleri ve araçları
+3- Hata ayıklama ve test etme yöntemleri
+
+
+Gün 23: Gömülü Sistemlerin Temelleri
+
+1- Gömülü Sistem Nedir?
+-Gömülü sistemlerin tanımı ve özellikleri
+-Gömülü sistemlerin kullanım alanları ve örnekleri
+1- Gömülü Sistem Mimarisi:
+-Mikrodenetleyiciler, FPGA'lar ve DSP'ler
+-Bellek, giriş/çıkış birimleri ve diğer bileşenler
+
+Gün 24: Gömülü Yazılım Programlama
+
+2- Gömülü Sistem Programlama Dilleri:
+-C ve C++'ın gömülü sistemlerde kullanımı
+-Derleyici ve optimizasyon teknikleri
+2- Donanım Kaynaklarının Yönetimi:
+-Bellek yönetimi, giriş/çıkış işlemleri
+-Kesmeler (interrupts) ve zamanlama
+
+Gün 25: Gömülü Yazılımın Geliştirilmesi
+
+3- Emülasyon ve Hata Ayıklama:
+-Gömülü sistemlerin emülatörleri ve simülatörleri
+-Hata ayıklama araçları ve teknikleri
+3- Gerçek Zamanlı Programlama:
+-Gömülü sistemlerde zaman kısıtlamalarına uygun programlama
+-Kesmelerin ve zamanlama mekanizmalarının kullanımı
+
+Gün 26: Gömülü Yazılım Test ve Doğrulama
+
+4- Gömülü Yazılım Test Stratejileri:
+-Birim testleri, entegrasyon testleri, sistem testleri
+-Veri doğrulama, performans testleri
+4- Yazılım Doğrulama ve Sertifikasyon:
+-Güvenlik testleri, uyumluluk testleri
+-Sertifikasyon süreci ve gereksinimleri
+__________________________________________________________________________________
+Gün 27-30: İleri Gömülü Yazılım Konuları
+
+1- Veri yapıları ve algoritma tasarımı
+2- Güç yönetimi ve enerji optimizasyonu
+3- İleri seviye haberleşme protokolleri ve ağ programlama
+
+
+Gün 27: Gömülü Sistem Optimizasyonu
+
+1- Donanım-Yazılım Eşleştirme:
+-Donanım ve yazılım arasındaki optimizasyon
+-Performans, güç tüketimi ve kaynak kullanımı
+1- Derleme Optimizasyonu:
+-Derleyici optimizasyon teknikleri
+-Derleme flag'leri ve optimizasyon seçenekleri
+
+Gün 28: Gerçek Zamanlı İletişim ve Ağlar
+
+2- Kablosuz Haberleşme Protokolleri:
+-Bluetooth, Wi-Fi, Zigbee, LoRa vb.
+-Kablosuz ağlarda güvenlik ve performans
+2- Ağ Protokolleri ve Veri İletişimi:
+-TCP/IP, UDP, MQTT, CoAP vb.
+-İnternet tabanlı gömülü sistemler
+
+Gün 29: Güvenlik ve Yazılım Doğrulama
+
+3- Gömülü Sistem Güvenliği:
+-Veri şifreleme, kimlik doğrulama, güvenlik protokolleri
+-Yazılım güvenliği ve siber saldırılara karşı korunma
+3- Yazılım Doğrulama ve Kalite Güvencesi:
+-Otomatik test araçları, statik analiz, kod inceleme
+-Yazılım süreç iyileştirme yöntemleri
+
+Gün 30: Sistem Entegrasyonu ve Proje Yönetimi
+
+4- Sistem Entegrasyonu:
+-Donanım ve yazılım bileşenlerin birleştirilmesi
+-Uyumluluk testleri ve entegrasyon süreçleri
+4- Proje Yönetimi:
+-Gömülü sistem projelerinin planlanması ve yönetimi
+-Kaynak tahsisi, zaman çizelgesi ve risk yönetimi
+__________________________________________________________________________________
