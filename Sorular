@@ -1,17 +1,86 @@
+	//-----------------------------------------------
+/*	Ornek-1
+	Kullanıcıdan bir sayı girişi alın. 
+	Eğer sayı 0'dan büyük veya eşitse, "Sayı pozitif veya sıfırdır." mesajını yazdırın. 
+	Aksi takdirde, "Sayı negatiftir." mesajını yazdırın. */
+	//-----------------------------------------------
+/*	Ornek-2
+	Kullanıcıdan bir karakter girişi alın. 
+	Eğer karakter bir harf ise, "Girilen değer bir harftir." mesajını yazdırın. 
+	Eğer karakter bir rakam ise, "Girilen değer bir rakamdır." mesajını yazdırın. 
+	Aksi takdirde, "Girilen değer ne bir harf ne de bir rakamdır." mesajını yazdırın. */
+	//-----------------------------------------------
+/*	Ornek-3
+	Kullanıcıdan bir not girişi alın (0-100 arası). 
+	Eğer not 0-49 aralığında ise, "Kaldınız." mesajını yazdırın. 
+	Eğer not 50-69 aralığında ise, "Geçtiniz." mesajını yazdırın. 
+	Eğer not 70-100 aralığında ise, "Tebrikler, geçtiniz!" mesajını yazdırın. 
+	Geçerli bir not girilmediğinde, "Geçerli bir not giriniz." mesajını yazdırın. */
+	//-----------------------------------------------
+/*	Ornek-4
+	Kullanıcıdan bir yıl girişi alın. 
+	Eğer girilen yıl bir artık yıl ise, "Girilen yıl bir artık yıldır." mesajını yazdırın. 
+	Aksi takdirde, "Girilen yıl bir artık yıl değildir." mesajını yazdırın. 
+	Bir yılın artık yıl olması için 4'e tam bölünebilmesi ve 100'e tam bölünememesi veya 400'e tam bölünebilmesi gerekmektedir. */
+	//-----------------------------------------------
+/*	Ornek-5
+	Kullanıcıdan bir üçgenin kenar uzunluklarını giriş olarak alın. 
+	Eğer bu kenar uzunlukları ile bir üçgen oluşturulabiliyorsa, "Girilen değerler bir üçgen oluşturur." mesajını yazdırın. 
+	Aksi takdirde, "Girilen değerler bir üçgen oluşturmaz." mesajını yazdırın. 
+	Bir üçgen oluşturabilmek için, herhangi iki kenarın toplamı diğer kenardan büyük olmalıdır. */
+	//-----------------------------------------------
+/*	Ornek-6 
+	Kullanıcıdan bir karakter girişi alın.
+	Eğer girilen karakter bir harf ise, büyük harfe dönüştürün ve ekrana yazdırın.
+	Eğer girilen karakter bir rakam ise, "Rakam girdiniz!" mesajını yazdırın.
+	Eğer girilen karakter ne bir harf ne de bir rakam ise, "Geçersiz giriş!" mesajını yazdırın. */
+    	//-----------------------------------------------
+/*	Ornek-7
+	Kullanicıdan bir ay numarası alın. 
+	Ardından, girilen ay numarasına karşılık gelen ayın adını ekrana yazdırın. 
+	Örneğin, kullanıcı "3" girdiğinde program "Mart" yazmalıdır. 
+	Ay numaraları 1 ile 12 arasında olmalıdır. 
+	Eğer geçerli bir ay numarası girilmezse, "Geçersiz ay numarası!" mesajını yazdırın. */
+	//-----------------------------------------------
+/*	Ornek-8
+	Girilen sayının faktoriyelini hesaplayan program. */
+	//-----------------------------------------------
+/* 	Ornek-9
+	Girilen basamak değerine kadar olan fibonacci basamaklarını yazdıran program. */
+	//-----------------------------------------------
+/*	Ornek-10
+	3 Basamaklı sayıyı basamaklarına ayıran program. */
+	//-----------------------------------------------
+/*	Ornek-11
+	1 - 20 Arasındaki çift sayıları listeleyen ama 14 sayısını listelemeyen program. */
+	//-----------------------------------------------
+/* 	Ornek-12
+	Kullanıcı tarafından girilen sayının faktoriyelini while döngüsü ile bulan program. */
+	//-----------------------------------------------
+/*	Ornek-13
+	Hesap Makinasi programı. */	
+	//-----------------------------------------------
 /*	Ornek-14
 	Bir dizinin elemanlarını kullanıcıdan alarak bu elemanları sırasıyla ekrana yazdıran bir C programı yazın. */
-
+	//-----------------------------------------------
 /*	Ornek-15
 	Bir dizideki elemanlarin toplamini bulan bir C programi yazin. */
-
+	//-----------------------------------------------
 /*	Ornek-16
 	Bir dizinin en büyük elemanını bulan bir C programı yazın. */
-
+	//-----------------------------------------------
 /*	Ornek-17
 	Bir dizideki çift sayıların sayısını bulan bir C programı yazın. */
-
+	//-----------------------------------------------
 /*	Ornek-18
 	Bir dizideki tek sayıların toplamını bulan bir C programı yazın. */
-
+	//-----------------------------------------------
 /* 	Ornek-19
 	Bir dizinin elemanlarını kullanıcıdan alarak, bu elemanları tersten yazdırarak yeni bir dizi oluşturun. */
+	//-----------------------------------------------	
+/* 	Ornek-20
+	Bir dizideki elemanları küçükten büyüğe sıralayan bir C programı yazın. */
+	//-----------------------------------------------	
+/* 	Ornek-21
+	Bir dizideki elemanları büyükten küçüğe sıralayan bir C programı yazın.	*/
+	//-----------------------------------------------
