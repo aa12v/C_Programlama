@@ -12,3 +12,6 @@
 
 /*	Ornek-18
 	Bir dizideki tek sayıların toplamını bulan bir C programı yazın. */
+
+/* 	Ornek-19
+	Bir dizinin elemanlarını kullanıcıdan alarak, bu elemanları tersten yazdırarak yeni bir dizi oluşturun. */
