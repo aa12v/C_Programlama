@@ -742,6 +742,63 @@ int main() {
 /* 	Ornek-19
 	Bir dizinin elemanlarını kullanıcıdan alarak, bu elemanları tersten yazdırarak yeni bir dizi oluşturun. */
 	
+	int adet, i, a, k;
+	int dizi[100];
+	
+	printf("Olusturacaginiz Dizinin Eleman Sayisi: ");
+	
+	if (scanf("%d", &adet) != 1) {
+		
+		printf("Yalnizca Sayi Girisi Yapiniz!");
+		
+	} else {
+		
+			if (adet > 100) {
+			
+				printf("Gecersiz dizi boyutu!");
+			
+			} else if (adet == 0) {
+			
+				printf("Olusturmak istediginiz dizinin hic elemani yoktur!");
+			
+			} else if (0 < adet && adet <= 100) {
+			
+				for(i=0;i<adet;i++) {
+				
+					printf("Olusturmak istediginiz dizinin %d. elemanini giriniz!\n%d.Eleman: ", i+1, i+1);
+				
+					a = scanf("%d", &dizi[i]);
+					
+					if (a == 0) {
+						
+						printf("Gecersiz Giris");
+						break;
+						
+					} else {
+						
+						if (dizi[i] >)
+						
+					}
+				}
+			
+				if (0 < adet && adet <= 100 && adet == i) {
+				
+					printf ("Dizi Elemanlari: ");
+				
+					for (k=0;k<adet;k++) {
+				
+						printf("%d ", dizi[k]);
+				
+					}
+				}
+			
+			} else if (adet < 0) {
+			
+				printf("Adet degeri negatif olamaz!");
+			
+			}
+	}
+	
 	//-----------------------------------------------	
 	
 /* 	Ornek-20
