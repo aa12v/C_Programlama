@@ -84,45 +84,52 @@
 /*	Ornek-21
 	'*' Karakteri kullanarak kelebek kanadı oluşturunuz. */
 	//-----------------------------------------------
-/*	Ornek-22
-	'*' Karakteri kullanarak içi dolu üçgen oluturunuz */
+/*	Ornek-22							*
+									**
+	'*' Karakteri kullanarak yanda bulunan şekli oluşturun. 	****
+									******
+									********
+									**********
 	//-----------------------------------------------
 /*	Ornek-23
-	İki boyutlu bir matris oluşturun ve kullanıcıdan matrisin boyutlarını (satır ve sütun sayısı) alın. 
-	Daha sonra kullanıcıdan matrisin elemanlarını alın. 
-	Matrisi ekrana yazdırın. */
+	'*' Karakteri kullanarak içi dolu üçgen oluturunuz */
 	//-----------------------------------------------
 /*	Ornek-24
 	İki boyutlu bir matris oluşturun ve kullanıcıdan matrisin boyutlarını (satır ve sütun sayısı) alın. 
 	Daha sonra kullanıcıdan matrisin elemanlarını alın. 
-	Matrisi ekrana yazdırın ve matrisin satır ve sütun toplamlarını hesaplayıp ekrana yazdırın. */
+	Matrisi ekrana yazdırın. */
 	//-----------------------------------------------
 /*	Ornek-25
+	İki boyutlu bir matris oluşturun ve kullanıcıdan matrisin boyutlarını (satır ve sütun sayısı) alın. 
+	Daha sonra kullanıcıdan matrisin elemanlarını alın. 
+	Matrisi ekrana yazdırın ve matrisin satır ve sütun toplamlarını hesaplayıp ekrana yazdırın. */
+	//-----------------------------------------------
+/*	Ornek-26
 	Üç boyutlu bir dizi oluşturun ve kullanıcıdan boyutlarını (x, y ve z) alın. 
 	Daha sonra kullanıcıdan dizinin elemanlarını alın. 
 	Diziyi ekrana yazdırın. */
 	//-----------------------------------------------	
-/*	Ornek-26
+/*	Ornek-27
 	Bir matris oluşturun ve matrisin boyutunu (n x m) ve elemanlarını rastgele değerlerle doldurun. 
 	Matrisi ekrana yazdırın. 
 	Daha sonra, matrisin transpozunu (satırlar ile sütunların yer değiştirdiği matris) oluşturun ve transpozunu ekrana yazdırın. */
 	//-----------------------------------------------
-/*	Ornek-27	
+/*	Ornek-28	
 	Bir üç boyutlu bir matris oluşturun ve kullanıcıdan matrisin boyutlarını (x, y ve z) alın. 
 	Daha sonra kullanıcıdan matrisin elemanlarını alın. 
 	Matrisi ekrana yazdırın ve matrisin en büyük elemanını ve en küçük elemanını bulup ekrana yazdırın. */
 	//-----------------------------------------------
-/*	Ornek-28
+/*	Ornek-29
 	Üç boyutlu bir matris oluşturun ve kullanıcıdan matrisin boyutlarını (x, y ve z) alın. 
 	Daha sonra kullanıcıdan matrisin elemanlarını alın. 
 	Ardından kullanıcıdan bir koordinat (x, y, z) alın ve bu koordinattaki elemanı ekrana yazdırın. */
 	//-----------------------------------------------
-/*	Ornek-29
+/*	Ornek-30
 	Bir matris oluşturun ve kullanıcıdan matrisin boyutlarını (n x m) alın. 
 	Daha sonra kullanıcıdan matrisin elemanlarını alın. 
 	Matrisi ekrana yazdırın ve matrisin her bir elemanının faktöriyelini alarak yeni bir matris oluşturun ve bu yeni matrisi ekrana yazdırın. */
 	//-----------------------------------------------
-/*	Ornek-30
+/*	Ornek-31
 	İki boyutlu bir matris oluşturun ve kullanıcıdan matrisin boyutlarını (n x m) alın. 
 	Daha sonra kullanıcıdan matrisin elemanlarını alın. 
 	Matrisi ekrana yazdırın ve matrisin satırlarını ve sütunlarını yer değiştirerek yeni bir matris oluşturun ve bu yeni matrisi ekrana yazdırın. */
