@@ -1,11 +1,11 @@
-/*	
-																	                            *
-																	                            **														
-																                            	****
-	'*' Karakteri kullanarak yanda bulunan şekli oluşturun. 		******
-																                            	********				
-																                            	**********
-																				                                    */
+/*	Ornek-22
+									*
+									**														
+									****
+	'*' Karakteri kullanarak yanda bulunan şekli oluşturun. 	******
+									********				
+									**********
+											*/	
 
 import java.util.Scanner;
 
