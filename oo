@@ -1,0 +1,42 @@
+/*	
+																	                            *
+																	                            **														
+																                            	****
+	'*' Karakteri kullanarak yanda bulunan şekli oluşturun. 		******
+																                            	********				
+																                            	**********
+																				                                    */
+
+
+#include <stdio.h>
+
+int main() {
+    char pattern[] = "*, **, ****, ******, ********, **********";
+    int rows = sizeof(pattern) / sizeof(char) - 1; // Son karakter '\0' olduğu için çıkartıyoruz
+
+    int i, j;
+    int starCount = 0;
+
+    for (i = 0; i < rows; i++) {
+        if (pattern[i] == ',') {
+            for (j = 0; j < starCount; j++) {
+                printf("*");
+            }
+            printf("\n");
+            starCount = 0;
+        } else if (pattern[i] == ' ') {
+            // Boşluk karakterini görmezden gel
+            continue;
+        } else {
+            starCount++;
+        }
+    }
+
+    // Son satırı da bas
+    for (j = 0; j < starCount; j++) {
+        printf("*");
+    }
+    printf("\n");
+
+    return 0;
+}
