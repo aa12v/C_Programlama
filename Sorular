@@ -92,7 +92,7 @@
 	Daha sonra kullanıcıdan matrisin elemanlarını alın. 
 	Matrisi ekrana yazdırın. */
 	//-----------------------------------------------
-/*	 Ornek-24
+/*	Ornek-24
 	İki boyutlu bir matris oluşturun ve kullanıcıdan matrisin boyutlarını (satır ve sütun sayısı) alın. 
 	Daha sonra kullanıcıdan matrisin elemanlarını alın. 
 	Matrisi ekrana yazdırın ve matrisin satır ve sütun toplamlarını hesaplayıp ekrana yazdırın. */
