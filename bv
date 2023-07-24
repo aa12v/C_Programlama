@@ -1,0 +1,18 @@
+public class Main {
+    public static void main(String[] args) {
+        int i;
+        int sayac = 2;
+        
+        System.out.println("*");
+        
+        while (sayac <= 10) {
+            for (i = 1; i <= sayac; i++) {
+                System.out.print("*");
+            }
+            
+            sayac = sayac + 2;
+            
+            System.out.println();
+        }
+    }
+}
