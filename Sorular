@@ -2,7 +2,7 @@
 /*	Ornek-1
 	Kullanıcıdan bir sayı girişi alın. 
 	Eğer sayı 0'dan büyük veya eşitse, "Sayı pozitif veya sıfırdır." mesajını yazdırın. 
-	Aksi takdirde, "Sayı negatiftir." mesajını yazdırın. */
+	Aksi takdirde, "Sayı negatiftir." mesajını yazdırın. */	
 	//-----------------------------------------------
 /*	Ornek-2
 	Kullanıcıdan bir karakter girişi alın. 
@@ -84,15 +84,15 @@
 /*	Ornek-21
 	'*' Karakteri kullanarak kelebek kanadının yarısını oluşturunuz. */
 	//-----------------------------------------------
-/*	Ornek-22							*
+/*	Ornek-22
+	Kullanici tarafinden belirlenen Karakteri kullanarak kelebek kanadı oluşturunuz. */
+	//-----------------------------------------------
+/*	Ornek-23							*
 									**
 	'*' Karakteri kullanarak yanda bulunan şekli oluşturun. 	****
 									******
 									********
 									**********
-	//-----------------------------------------------
-/*	Ornek-23
-	'*' Karakteri kullanarak kelebek kanadını oluşturunuz. */
 	//-----------------------------------------------
 /*	Ornek-24
 	'*' Karakteri kullanarak içi dolu üçgen oluturunuz */
