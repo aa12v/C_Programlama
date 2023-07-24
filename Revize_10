@@ -1,0 +1,1219 @@
+#include <stdio.h>
+#include <string.h>
+#include <ctype.h>
+#include <stddef.h>
+
+
+
+
+int main() {
+	
+// 	Hazirlik
+
+	//-----------------------------------------------
+		
+/*	int yas = 25;
+	char isim[6] = "Hilal";
+	
+	printf("Benim adim %s ve yasim %d%s ", isim, yas,"\'tir."); */
+	
+	//-----------------------------------------------
+	
+/*	char kullaniciAdi[50];
+	int sifre;
+	
+	printf("Lutfen Kullanici adinizi giriniz: \n");
+	scanf("%s\n", &kullaniciAdi); 
+	printf("Lutfen sifrenizi giriniz: \n");
+	scanf("%d", &sifre);
+	printf("Kullanici Adiniz: %s Sifreniz: %d", kullaniciAdi, sifre); */
+	
+	//-----------------------------------------------
+	
+/*	int sayi1, sayi2;
+
+    printf("Iki tamsayi giriniz: ");
+	scanf("%d %d", &sayi1, &sayi2);
+	printf("Kullanicicin girdigi degerler %d %d", sayi1, sayi2); */
+	
+	//-----------------------------------------------
+	
+/*	double sayi;
+	double karesi;
+	
+	printf("Sayi giriniz: ");
+	scanf("%lf", &sayi);
+	
+	karesi = sayi * sayi;
+	
+	printf("Girilen sayinin karesi: %lf %s", karesi, "olarak hesaplanmistir"); */
+	
+	//-----------------------------------------------
+	
+/*	double buyukKenar;
+	double kucukKenar;
+	double dikdortgeninAlani;
+	
+	printf("Dikdortgenin sirasiyla kucuk kenar degerini ve buyuk kenar degerini giriniz!");
+	scanf("%lf %lf", &kucukKenar, &buyukKenar);
+	
+	dikdortgeninAlani = buyukKenar * kucukKenar;
+	
+	printf("Girilmis olan degerlere gore dikdortgenin alani: %.2lf %s", dikdortgeninAlani, "olarak hesaplanmistir."); */
+	
+	//-----------------------------------------------
+	
+/*	double sayi1;
+	double sayi2;
+	double fark;
+	double toplam;
+	double carpim;
+	double bolum;
+	
+	printf("1.Sayiyi Giriniz: ");
+	scanf("%lf", &sayi1);
+	printf("2.Sayiyi Giriniz: ");
+	scanf("%lf", &sayi2);
+	
+	fark = sayi1 - sayi2;
+	toplam = sayi1 + sayi2;
+	carpim = sayi1 * sayi2;
+	bolum = sayi1 / sayi2;
+	
+	printf("Girilen 1. sayi ve 2. sayinin farki: %lf, toplami: %lf, carpimi: %lf, bolumu: %lf seklindedir.", fark, toplam, carpim, bolum); */
+	
+	//-----------------------------------------------
+	
+/*	Ornek-1
+	Kullanıcıdan bir sayı girişi alın. 
+	Eğer sayı 0'dan büyük veya eşitse, "Sayı pozitif veya sıfırdır." mesajını yazdırın. 
+	Aksi takdirde, "Sayı negatiftir." mesajını yazdırın. */	
+	
+	
+/*	double sayi;
+
+	printf("Sayi giriniz: ");
+	
+	printf((scanf("%lf", &sayi) == 1) ? (0<sayi ? "Sayi pozitiftir." : ((0==sayi) ? "Sayi sifirdir." : "Sayi Negatiftir.")) : ("Lutfen sadece sayi giriniz!")); */
+	
+	//-----------------------------------------------
+	
+/*	Ornek-2
+	Kullanıcıdan bir karakter girişi alın. 
+	Eğer karakter bir harf ise, "Girilen değer bir harftir." mesajını yazdırın. 
+	Eğer karakter bir rakam ise, "Girilen değer bir rakamdır." mesajını yazdırın. 
+	Aksi takdirde, "Girilen değer ne bir harf ne de bir rakamdır." mesajını yazdırın. */
+	
+	
+/*	char deger;
+
+	printf("Bir karakter giriniz: ");
+	
+	printf((scanf("%d", &deger) == 1) ? "Girilen deger bir rakamdir." : ((scanf("%c", &deger) == 1) ? "Girilen deger bir harftir." : "Girilen değer ne bir harf ne de bir rakamdir." )); */
+
+ 	//-----------------------------------------------
+
+/*	Ornek-3
+	Kullanıcıdan bir not girişi alın (0-100 arası). 
+	Eğer not 0-49 aralığında ise, "Kaldınız." mesajını yazdırın. 
+	Eğer not 50-69 aralığında ise, "Geçtiniz." mesajını yazdırın. 
+	Eğer not 70-100 aralığında ise, "Tebrikler, geçtiniz!" mesajını yazdırın. 
+	Geçerli bir not girilmediğinde, "Geçerli bir not giriniz." mesajını yazdırın. */
+
+	//-----------------------------------------------
+
+/*	Ornek-4
+	Kullanıcıdan bir yıl girişi alın. 
+	Eğer girilen yıl bir artık yıl ise, "Girilen yıl bir artık yıldır." mesajını yazdırın. 
+	Aksi takdirde, "Girilen yıl bir artık yıl değildir." mesajını yazdırın. 
+	Bir yılın artık yıl olması için 4'e tam bölünebilmesi ve 100'e tam bölünememesi veya 400'e tam bölünebilmesi gerekmektedir. */
+
+	//-----------------------------------------------
+
+/*	Ornek-5
+	Kullanıcıdan bir üçgenin kenar uzunluklarını giriş olarak alın. 
+	Eğer bu kenar uzunlukları ile bir üçgen oluşturulabiliyorsa, "Girilen değerler bir üçgen oluşturur." mesajını yazdırın. 
+	Aksi takdirde, "Girilen değerler bir üçgen oluşturmaz." mesajını yazdırın. 
+	Bir üçgen oluşturabilmek için, herhangi iki kenarın toplamı diğer kenardan büyük olmalıdır. */
+
+	//-----------------------------------------------
+
+/*	Ornek-6 
+	Kullanıcıdan bir karakter girişi alın.
+	Eğer girilen karakter bir harf ise, büyük harfe dönüştürün ve ekrana yazdırın.
+	Eğer girilen karakter bir rakam ise, "Rakam girdiniz!" mesajını yazdırın.
+	Eğer girilen karakter ne bir harf ne de bir rakam ise, "Geçersiz giriş!" mesajını yazdırın. */
+    
+    
+/*  char deger;
+
+    printf("Karakter girisi yapiniz.");
+	scanf("%c", &deger);
+    
+    if (isalpha(deger)) {
+    	
+    	deger = toupper(deger);
+    	
+    	printf("%c", deger);
+    	
+	} else if (isdigit(deger)) {
+		
+		printf("Rakam girdiniz!");
+		
+	} else {
+		
+		printf("Gecersiz giris!");
+		
+	} */
+    
+	//-----------------------------------------------
+	
+/*	Ornek-7
+	Kullanicıdan bir ay numarası alın. 
+	Ardından, girilen ay numarasına karşılık gelen ayın adını ekrana yazdırın. 
+	Örneğin, kullanıcı "3" girdiğinde program "Mart" yazmalıdır. 
+	Ay numaraları 1 ile 12 arasında olmalıdır. 
+	Eğer geçerli bir ay numarası girilmezse, "Geçersiz ay numarası!" mesajını yazdırın. */
+	
+	
+/*	int sayi;
+
+	printf("Bir ay numarasi giriniz: ");
+	scanf("%d", &sayi);
+
+	switch (sayi) {
+		case 1:
+			printf("Ocak");
+			break;
+		case 2:
+			printf("Subat");
+			break;
+		case 3:
+			printf("Mart");
+			break;
+		case 4:
+			printf("Nisan");
+			break;
+		case 5:
+			printf("Mayis");
+			break;
+		case 6:
+			printf("Haziran");
+			break;
+		case 7:
+			printf("Temmuz");
+			break;
+		case 8:
+			printf("Agustos");
+			break;
+		case 9:
+			printf("Eylul");
+			break;
+		case 10:
+			printf("Ekim");
+			break;
+		case 11:
+			printf("Kasim");
+			break;
+		case 12:
+			printf("Aralik");
+			break;
+		default:
+			printf("Gecersiz ay numarasi!");
+			break;
+	} */
+	
+	//-----------------------------------------------
+
+/*	Ornek-8
+	Girilen sayının faktoriyelini hesaplayan program. */
+	
+	
+/*	int sayi, i; 
+	int faktoriyel = 1;
+	
+	printf("Faktoriyelli hesaplanacak olan sayiyi giriniz: ");
+	
+	if (scanf("%d", &sayi)==1) {
+	
+		if(sayi==0) {
+		
+		
+			printf("Girilen sayinin faktoriyeli = 0");
+			
+		} else if(sayi>0) {
+			
+			for(i=sayi;i>0;i--) {
+			
+			faktoriyel = faktoriyel * i;
+			}
+		
+	    	printf("Girilen sayinin faktoriyeli = %d", faktoriyel);
+	    	
+		} else if (sayi<0) {
+			
+			printf("Negatif sayilarin faktoriyeli hesaplanamaz!");
+			
+		}
+	
+	} else {
+		
+		printf("Sadece sayi girisi yapiniz!");
+		
+	} */
+
+	//-----------------------------------------------
+
+/* 	Ornek-9
+	Girilen basamak değerine kadar olan fibonacci basamaklarını yazdıran program. */
+
+
+/*	int a, b = 1;
+	int sonuc, deger, i;
+	
+	printf("Fibonacci dizisinin kacinci degerini merak ediyorsunuz?\nNumara: ");
+
+	if (scanf("%d", &deger)==1) {
+		
+		if(deger == 0) {
+			
+			printf("0");
+			
+		} else if (deger > 0) {
+			
+			printf("%d\n", b);
+	
+			for(i=1;i<=deger-1;i++) {
+				
+				sonuc = a + b;
+				a = b;
+				b = sonuc;
+				
+				printf("%d\n", sonuc);
+				
+			}
+		}
+	} else {
+	
+		printf("Sadece sayi girisi yapiniz!");
+		
+	} */
+
+	//-----------------------------------------------
+	
+/*	Ornek-10
+	3 Basamaklı sayıyı basamaklarına ayıran program. */
+
+	//-----------------------------------------------	
+
+/*	Ornek-11
+	1 - 20 Arasındaki çift sayıları listeleyen ama 14 sayısını listelemeyen program. */
+
+
+/*	int i = 2;
+
+	while (i<=20){
+	
+			printf("%d\n", i);
+			
+			i = i + 2;
+			
+			if(i==12){
+			
+				printf("%d\n", i);
+				i = i + 4;
+				
+			}	
+		} */
+
+	//-----------------------------------------------
+	
+/* 	Ornek-12
+	Kullanıcı tarafından girilen sayının faktoriyelini while döngüsü ile bulan program. */
+	
+	
+/*	int sayi;
+	int faktoriyel = sayi;
+	
+	printf("Faktoriyelli hesaplanacak olan sayiyi giriniz: ");
+	
+	if (scanf("%d", &sayi)==1) {
+	
+		if(sayi==0) {
+		
+			printf("Girilen sayinin faktoriyeli = 0");
+			
+		} else if(sayi>0){
+			
+			while(sayi - 1 > 0){
+		
+				faktoriyel = faktoriyel * sayi;
+				sayi --;
+				
+				}
+				
+				printf("Girilen sayinin faktoriyeli = %d", faktoriyel);	
+				
+		} else if (sayi<0) {
+			
+			printf("Negatif sayilarin faktoriyeli hesaplanamaz!");
+		}
+	
+	} else {
+		
+		printf("Sadece sayi girisi yapiniz!");
+		
+	} */
+
+	//-----------------------------------------------
+
+/*	Ornek-13
+	Hesap Makinasi programı. */	
+	
+	
+/*	char karakter;
+
+	printf("Bir islem secimi yapiniz!\n");
+	printf("Toplama Islemi icin '+' tusuna basiniz!\n");
+	printf("Cikartma Islemi icin '-' tusuna basiniz!\n");
+	printf("Bolme Islemi icin '/' tusuna basiniz!\n");
+	printf("Carpma Islemi icin '*' tusuna basiniz!\n");
+	
+	scanf("%c", &karakter);
+	
+	if(karakter == '+' || karakter == '-' || karakter == '*' || karakter == '/' ) {
+		
+		double sayi1, sayi2, sonuc;
+		
+		printf("Islem yapilacak ilk sayi nedir?\n");
+		scanf("%lf", &sayi1);
+		printf("Islem yapilacak ikinci sayi nedir?\n");
+		scanf("%lf", &sayi2);
+				
+		switch (karakter) {
+			case '+':
+				sonuc = sayi1 + sayi2;
+				printf("Girilen 1. ve 2. sayinin toplami: %lf", sonuc);
+				break;
+			
+			case '-':	
+				sonuc = sayi1 - sayi2;
+				printf("Girilen 1. ve 2. sayinin farki: %lf", sonuc);
+				break;
+				
+			case '*':	
+				sonuc = sayi1 * sayi2;
+				printf("Girilen 1. ve 2. sayinin carpimi: %lf", sonuc);
+				break;
+				
+			case '/':	
+				sonuc = sayi1 / sayi2;
+				printf("Girilen 1. ve 2. sayinin bolumu: %lf", sonuc);
+				break;
+		}	
+	} else {
+		
+		printf("Sadece verilen karakterleri kullaniniz!");
+		
+	} */
+	
+	//-----------------------------------------------
+	
+/*	Ornek-14
+	Bir dizinin elemanlarını kullanıcıdan alarak bu elemanları sırasıyla ekrana yazdıran bir C programı yazın. */
+
+
+/*	int adet, i, a, k;
+	int dizi[100];
+	
+	printf("Olusturacaginiz Dizinin Eleman Sayisi: ");
+	
+	if (scanf("%d", &adet) != 1) {
+		
+		printf("Yalnizca Sayi Girisi Yapiniz!");
+		
+	} else {
+		
+			if (adet > 100) {
+			
+				printf("Gecersiz dizi boyutu!");
+			
+			} else if (adet == 0) {
+			
+				printf("Olusturmak istediginiz dizinin hic elemani yoktur!");
+			
+			} else if (0 < adet && adet <= 100) {
+			
+				for(i=0;i<adet;i++) {
+				
+					printf("Olusturmak istediginiz dizinin %d. elemanini giriniz!\n%d.Eleman: ", i+1, i+1);
+				
+					a = scanf("%d", &dizi[i]);
+					
+					if (a == 0) {
+						
+						printf("Gecersiz Giris");
+						break;
+						
+					}
+				}
+			
+				if (0 < adet && adet <= 100 && adet == i) {
+				
+					printf ("Dizi Elemanlari: ");
+				
+					for (k=0;k<adet;k++) {
+				
+						printf("%d ", dizi[k]);
+				
+					}
+				}
+			
+			} else if (adet < 0) {
+			
+				printf("Adet degeri negatif olamaz!");
+			
+			}
+	} */
+	
+	//-----------------------------------------------	
+	
+/*	Ornek-15
+	Bir dizideki elemanlarin toplamini bulan bir C programi yazin. */
+
+
+/*	int adet, i, a, k;
+	int toplam = 0;
+	int dizi[100];
+	
+	printf("Olusturacaginiz Dizinin Eleman Sayisi: ");
+	
+	if (scanf("%d", &adet) != 1) {
+		
+		printf("Yalnizca Sayi Girisi Yapiniz!");
+		
+	} else {
+		
+			if (adet > 100) {
+			
+				printf("Gecersiz dizi boyutu!");
+			
+			} else if (adet == 0) {
+			
+				printf("Olusturmak istediginiz dizinin hic elemani yoktur!");
+			
+			} else if (0 < adet && adet <= 100) {
+			
+				for(i=0;i<adet;i++) {
+				
+					printf("Olusturmak istediginiz dizinin %d. elemanini giriniz!\n%d.Eleman: ", i+1, i+1);
+				
+					a = scanf("%d", &dizi[i]);
+					
+					if (a == 0) {
+						
+						printf("Gecersiz Giris");
+						break;
+						
+					}  else {
+					
+						toplam = toplam + dizi[i];
+						continue;
+					
+					}
+				}
+			
+				if (0 < adet && adet <= 100 && adet == i) {
+				
+					printf ("Dizi Elemanlari: ");
+				
+					for (k=0;k<adet;k++) {
+				
+						printf("%d ", dizi[k]);
+				
+					}
+					
+					printf("\n");
+					printf ("Dizi Elemanlarinin toplami: %d", toplam);
+				}
+			
+			} else if (adet < 0) {
+			
+				printf("Adet degeri negatif olamaz!");
+			
+			}
+	} */
+
+	//-----------------------------------------------
+
+/*	Ornek-16
+	Bir dizinin en büyük elemanını bulan bir C programı yazın. */
+	
+	
+/*	int adet, i, a, k;
+	int buyuk = 0;
+	int dizi[100];
+	
+	printf("Olusturacaginiz Dizinin Eleman Sayisi: ");
+	
+	if (scanf("%d", &adet) != 1) {
+		
+		printf("Yalnizca Sayi Girisi Yapiniz!");
+		
+	} else {
+		
+			if (adet > 100) {
+			
+				printf("Gecersiz dizi boyutu!");
+			
+			} else if (adet == 0) {
+			
+				printf("Olusturmak istediginiz dizinin hic elemani yoktur!");
+			
+			} else if (0 < adet && adet <= 100) {
+			
+				for(i=0;i<adet;i++) {
+				
+					printf ("Olusturmak istediginiz dizinin %d. elemanini giriniz!\n%d.Eleman: ", i+1, i+1);
+				
+					a = scanf ("%d", &dizi[i]);
+					
+					if (a == 0) {
+						
+						printf ("Gecersiz Giris");
+						break;
+						
+					} else {
+							
+							if (dizi[i] > buyuk) {
+								
+								buyuk = dizi[i];
+							}
+					}
+				}
+			
+				if (0 < adet && adet <= 100 && adet == i) {
+				
+					printf ("Dizi Elemanlari: ");
+				
+					for (k=0;k<adet;k++) {
+				
+						printf ("%d ", dizi[k]);
+				
+					}
+					
+					printf("\n");
+					printf ("Dizi Elemanlarindan En Buyugu: %d", buyuk);
+				}
+			
+			} else if (adet < 0) {
+			
+				printf ("Adet degeri negatif olamaz!");
+			
+			}
+	} */
+
+	//-----------------------------------------------
+
+/*	Ornek-17
+	Bir dizideki çift sayıların sayısını bulan bir C programı yazın. */
+
+
+/*	int adet, i, a, k;
+	int sayac = 0;
+	int dizi[100];
+	
+	printf("Olusturacaginiz Dizinin Eleman Sayisi: ");
+	
+	if (scanf("%d", &adet) != 1) {
+		
+		printf("Yalnizca Sayi Girisi Yapiniz!");
+		
+	} else {
+		
+			if (adet > 100) {
+			
+				printf("Gecersiz dizi boyutu!");
+			
+			} else if (adet == 0) {
+			
+				printf("Olusturmak istediginiz dizinin hic elemani yoktur!");
+			
+			} else if (0 < adet && adet <= 100) {
+			
+				for(i=0;i<adet;i++) {
+				
+					printf("Olusturmak istediginiz dizinin %d. elemanini giriniz!\n%d.Eleman: ", i+1, i+1);
+				
+					a = scanf("%d", &dizi[i]);
+					
+					if (a == 0) {
+						
+						printf("Gecersiz Giris");
+						break;
+						
+					} else {
+						
+						if (dizi[i] % 2 == 0) {
+							
+							sayac ++;
+						}
+					}
+				}
+			
+				if (0 < adet && adet <= 100 && adet == i) {
+				
+					printf ("Dizi Elemanlari: ");
+				
+					for (k=0;k<adet;k++) {
+				
+						printf("%d ", dizi[k]);
+						
+					}
+					
+					printf("\n");
+					printf("Dizide %d adet cift sayi bulunmaktadir", sayac);
+				}
+			
+			} else if (adet < 0) {
+			
+				printf("Adet degeri negatif olamaz!");
+			
+			}
+	} */
+
+	//-----------------------------------------------
+
+/*	Ornek-18
+	Bir dizideki tek sayıların toplamını bulan bir C programı yazın. */
+	
+	
+/*	int adet, i, a, k;
+	int sayac = 0;
+	int toplam = 0;
+	int dizi[100];
+	
+	printf("Olusturacaginiz Dizinin Eleman Sayisi: ");
+	
+	if (scanf("%d", &adet) != 1) {
+		
+		printf("Yalnizca Sayi Girisi Yapiniz!");
+		
+	} else {
+		
+			if (adet > 100) {
+			
+				printf("Gecersiz dizi boyutu!");
+			
+			} else if (adet == 0) {
+			
+				printf("Olusturmak istediginiz dizinin hic elemani yoktur!");
+			
+			} else if (0 < adet && adet <= 100) {
+			
+				for(i=0;i<adet;i++) {
+				
+					printf("Olusturmak istediginiz dizinin %d. elemanini giriniz!\n%d.Eleman: ", i+1, i+1);
+				
+					a = scanf("%d", &dizi[i]);
+					
+					if (a == 0) {
+						
+						printf("Gecersiz Giris");
+						break;
+						
+					} else {
+						
+						if (dizi[i] % 2 == 1) {
+							
+							toplam = toplam + dizi[i];
+							sayac ++;
+						}
+					}
+				}
+			
+				if (0 < adet && adet <= 100 && adet == i) {
+				
+					printf ("Dizi Elemanlari: ");
+				
+					for (k=0;k<adet;k++) {
+				
+						printf("%d ", dizi[k]);
+						
+					}
+					
+					printf("\n");
+					printf("Dizide %d adet tek sayi bulunmaktadir ve bu tek sayilarin toplami %d eder.", sayac, toplam);
+				}
+			
+			} else if (adet < 0) {
+			
+				printf("Adet degeri negatif olamaz!");
+			
+			}
+	} */
+	
+	//-----------------------------------------------
+	
+/* 	Ornek-19
+	Bir dizinin elemanlarını kullanıcıdan alarak, bu elemanları tersten yazdırarak yeni bir dizi oluşturun. */
+	
+	
+/*	int adet, i, a, k;
+	int dizi[100];
+	
+	printf("Olusturacaginiz Dizinin Eleman Sayisi: ");
+	
+	if (scanf("%d", &adet) != 1) {
+		
+		printf("Yalnizca Sayi Girisi Yapiniz!");
+		
+	} else {
+		
+			if (adet > 100) {
+			
+				printf("Gecersiz dizi boyutu!");
+			
+			} else if (adet == 0) {
+			
+				printf("Olusturmak istediginiz dizinin hic elemani yoktur!");
+			
+			} else if (0 < adet && adet <= 100) {
+			
+				for(i=0;i<adet;i++) {
+				
+					printf("Olusturmak istediginiz dizinin %d. elemanini giriniz!\n%d.Eleman: ", i+1, i+1);
+				
+					a = scanf("%d", &dizi[i]);
+					
+					if (a == 0) {
+						
+						printf("Gecersiz Giris");
+						break;
+						
+					}
+				}
+			
+				if (0 < adet && adet <= 100 && adet == i) {
+				
+					printf ("Orijinal Dizi Elemanlari:  ");
+				
+					for (i=0;i<adet;i++) {
+				
+						printf("%d ", dizi[i]);
+				
+					}
+					
+					printf ("\n");
+					
+					printf ("Girilen Dizinin Ters hali: ");
+					
+					for (i=adet-1;i>=0;i--) {
+						
+						int yeniDizi = dizi[i];
+						printf("%d ", dizi[i]);
+					}
+				}
+			
+			} else if (adet < 0) {
+			
+				printf ("Adet degeri negatif olamaz!");
+			
+			}
+	} */
+	
+	//-----------------------------------------------	
+	
+/* 	Ornek-20
+	Bir dizideki elemanları küçükten büyüğe ve büyükten küçüge sıralayan bir C programı yazın. */
+	
+	
+/*	int adet, i, a, k, buyuk, kucuk;
+	int dizi[100];
+	
+	printf("Olusturacaginiz Dizinin Eleman Sayisi: ");
+	
+	if (scanf("%d", &adet) != 1) {
+		
+		printf("Yalnizca Sayi Girisi Yapiniz!");
+		
+	} else {
+		
+			if (adet > 100) {
+			
+				printf("Gecersiz dizi boyutu!");
+			
+			} else if (adet == 0) {
+			
+				printf("Olusturmak istediginiz dizinin hic elemani yoktur!");
+			
+			} else if (0 < adet && adet <= 100) {
+			
+				for(i=0;i<adet;i++) {
+				
+					printf("Olusturmak istediginiz dizinin %d. elemanini giriniz!\n%d.Eleman: ", i+1, i+1);
+				
+					a = scanf("%d", &dizi[i]);
+					
+					if (a == 0) {
+						
+						printf("Gecersiz Giris");
+						break;
+						
+					} else {
+						
+						if (i==0) {
+							
+							kucuk = dizi[0];
+							buyuk = dizi[0];
+							
+						} else {
+							
+							if (buyuk < dizi[i]) {
+								
+								buyuk = dizi[i];
+							}
+					
+							if (kucuk > dizi[i]) {
+								
+								kucuk = dizi[i];
+							}
+						}
+					}
+				}
+			}
+			
+				if (0 < adet && adet <= 100 && adet == i) {
+				
+					printf ("Dizi Elemanlari: ");
+				
+					for (i=0;i<adet;i++) {
+				
+						printf("%d ", dizi[i]);
+				
+					}
+					
+					printf("\n");
+					printf("Dizinin en buyuk elemani: %d\n", buyuk);
+					printf("Dizinin en kucuk elemani: %d", kucuk);
+			
+				} else if (adet < 0) {
+			
+				printf("Adet degeri negatif olamaz!");
+			
+				}
+	} */
+	 	
+	//-----------------------------------------------	
+
+/*	Ornek-21
+	'*' Karakteri kullanarak kelebek kanadının yarısını oluşturunuz. */
+	
+/*	
+	int boyu, i, j;
+	
+	
+	printf ("Kanadin boy uzunlugu: ");
+	scanf ("%d", &boyu);
+	
+	
+	for(i=1;i<=boyu;i++) {
+		
+		for (j=1;j<=i;j++) {
+			
+			printf ("*");
+			
+		}
+		
+		printf("          ");
+		printf("\n");
+		
+	}
+	
+	for(i=boyu;i>=1;i--) {
+		
+		for(j=i;j>=1;j--) {
+			
+			printf ("*");
+			
+		}
+		
+		printf("\n");
+		
+	} */
+	
+	//-----------------------------------------------
+	
+/*	Ornek-22
+	Kullanici tarafinden belirlenen Karakteri kullanarak kelebek kanadı oluşturunuz. */
+	
+/*	int i, j, n;
+	char karakter;
+	
+	printf("Kelebek kanadinin uzunlugu ne kadar olsun? ");
+
+	
+	if (scanf("%d", &n) != 1) {
+		
+		printf("Sadece Sayi Girisi Yapiniz!");
+		
+	} else {
+		
+		if(n < 0) {
+			
+			printf("Negatif Sayi girisi yapilamaz!");
+			
+		} else if (n == 0 || n == 1 ) {
+			
+			printf("Istediginiz buyuklukteki kelebek hala kozada :)");
+			
+		} else {
+			
+			printf("Kelebeginiz hangi karakterden olusturulsun? ");
+			
+			scanf(" %c", &karakter);
+			
+			for (i=1; i<=n; i++) {
+		
+				for (j=1; j<=i; j++) {
+			
+					printf ("%c", karakter);
+			
+				} for (j=i; j<=n-1; j++) {
+			
+					printf(" ");
+			
+				} for (j=i; j<=n-1; j++) {
+			
+					printf(" ");
+					
+				} for (j=1; j<=i; j++) {
+			
+					printf ("%c", karakter);
+			
+				}
+		
+			printf("\n");	
+			
+			}
+	
+			for (i=n-1; i>=1; i--) {
+	
+				for (j=i; j>=1; j--) {
+			
+					printf ("%c", karakter);
+			
+				} for (j=1; j<= -(i-n); j++) {
+			
+					printf (" ");
+			
+				} for (j=1; j<= -(i-n); j++) {
+			
+					printf (" ");
+			
+				} for (j=i; j>=1; j--) {
+			
+					printf ("%c", karakter);
+			
+				}
+		
+			printf ("\n");
+			
+			}	
+		}
+	} */
+	
+	//-----------------------------------------------
+		
+/*	Ornek-23
+																	*
+																	**														
+																	****
+	'*' Karakteri kullanarak yanda bulunan şekli oluşturun. 		******
+																	********				
+																	**********
+																				*/
+
+
+/*	int i;
+	int sayac = 2;
+	
+	printf("*\n");
+	
+		
+		while (sayac <= 10) {
+				
+			for(i=1; i<=sayac; i++) {
+			
+				printf("*");
+			
+			}
+			
+			sayac = sayac + 2;
+			
+			printf("\n");
+			
+		} */
+
+	//-----------------------------------------------
+	
+/*	Ornek-24
+	'*' Karakteri kullanarak içi dolu üçgen oluturunuz */
+	
+	//-----------------------------------------------	
+	
+/*	Ornek-25
+	İki boyutlu bir matris oluşturun ve kullanıcıdan matrisin boyutlarını (satır ve sütun sayısı) alın. 
+	Daha sonra kullanıcıdan matrisin elemanlarını alın. 
+	Matrisi ekrana yazdırın. */
+
+	//-----------------------------------------------
+
+/*	Ornek-26
+	İki boyutlu bir matris oluşturun ve kullanıcıdan matrisin boyutlarını (satır ve sütun sayısı) alın. 
+	Daha sonra kullanıcıdan matrisin elemanlarını alın. 
+	Matrisi ekrana yazdırın ve matrisin satır ve sütun toplamlarını hesaplayıp ekrana yazdırın. */
+	
+	//-----------------------------------------------
+	
+/*	Ornek-27
+	Üç boyutlu bir dizi oluşturun ve kullanıcıdan boyutlarını (x, y ve z) alın. 
+	Daha sonra kullanıcıdan dizinin elemanlarını alın. 
+	Diziyi ekrana yazdırın. */
+	
+	//-----------------------------------------------	
+
+/*	Ornek-28
+	Bir matris oluşturun ve matrisin boyutunu (n x m) ve elemanlarını rastgele değerlerle doldurun. 
+	Matrisi ekrana yazdırın. 
+	Daha sonra, matrisin transpozunu (satırlar ile sütunların yer değiştirdiği matris) oluşturun ve transpozunu ekrana yazdırın. */
+
+	//-----------------------------------------------
+
+/*	Ornek-29	
+	Bir üç boyutlu bir matris oluşturun ve kullanıcıdan matrisin boyutlarını (x, y ve z) alın. 
+	Daha sonra kullanıcıdan matrisin elemanlarını alın. 
+	Matrisi ekrana yazdırın ve matrisin en büyük elemanını ve en küçük elemanını bulup ekrana yazdırın. */
+
+	//-----------------------------------------------
+	
+/*	Ornek-30
+	Üç boyutlu bir matris oluşturun ve kullanıcıdan matrisin boyutlarını (x, y ve z) alın. 
+	Daha sonra kullanıcıdan matrisin elemanlarını alın. 
+	Ardından kullanıcıdan bir koordinat (x, y, z) alın ve bu koordinattaki elemanı ekrana yazdırın. */
+
+	//-----------------------------------------------
+
+/*	Ornek-31
+	Bir matris oluşturun ve kullanıcıdan matrisin boyutlarını (n x m) alın. 
+	Daha sonra kullanıcıdan matrisin elemanlarını alın. 
+	Matrisi ekrana yazdırın ve matrisin her bir elemanının faktöriyelini alarak yeni bir matris oluşturun ve bu yeni matrisi ekrana yazdırın. */
+
+	//-----------------------------------------------
+
+/*	Ornek-32
+	İki boyutlu bir matris oluşturun ve kullanıcıdan matrisin boyutlarını (n x m) alın. 
+	Daha sonra kullanıcıdan matrisin elemanlarını alın. 
+	Matrisi ekrana yazdırın ve matrisin satırlarını ve sütunlarını yer değiştirerek yeni bir matris oluşturun ve bu yeni matrisi ekrana yazdırın. */
+
+	//-----------------------------------------------
+	
+/* 	Proje-1
+	Muhasebe */
+	
+	
+/*	int i, adet, a, harfMi;
+	double maas, gider, butce, giderYuzde;
+	char alan[50];
+	double toplamGider = 0;
+	size_t j;
+	
+	
+	printf ("Maasinizi giriniz: ");
+	
+	if (scanf ("%lf", &maas) != 1) {
+		
+		printf("Maas degeri yalnizca sayilardan olusabilir!");
+		
+	} else {	
+		
+		if (maas < 0) {
+			
+			printf("Maas degeri negatif olamaz!");
+			
+		} else if (maas == 0) {
+			
+			printf("Uzgunum :'( fakat hic paraniz yok!");
+				
+		} else {
+			
+			printf ("Maasinizi kac farkli alanda kullanmak istiyorsunuz: ");
+	
+			if (scanf("%d", &adet) != 1) {
+		
+				printf("Adet degeri yalnizca sayi olabilir!");
+		
+			} else {
+		
+				if (adet < 0) {
+				
+					printf("Alan adedi negatif girilemez!");
+				
+				} else if (adet == 0) {
+				
+					printf("Adet degeri en az 1 olmalidir!");
+				
+				} else {
+				
+						for(i=0;i<adet;i++) {
+							
+							printf("\nMaasinizi hangi alanda kullanacaksiniz?");
+							scanf("%s", alan);
+						
+							size_t uzunluk = strlen(alan);
+							harfMi = 1;
+						
+							for(j=0;j<uzunluk;j++) {
+								
+								if(!isalpha(alan[j])) {
+									
+									harfMi = 0;
+									break;
+									
+								} else {
+									
+									harfMi = 1;
+									
+								}
+							}
+						
+						if (harfMi != 1) {
+							
+							printf("Alan degeri sadece harflerden olusmalidir!\nYeniden Giris yapilmalidir!");
+							i--;
+							
+						} else {
+							
+							printf ("'%s' alanina ne kadar butce ayirmak istiyorsunuz: ", alan);
+							scanf ("%lf", &gider);
+							
+							toplamGider = toplamGider + gider;	
+							giderYuzde = (gider * maas) / 100;
+							
+						}
+						}
+				
+					if(harfMi == 1) {
+						
+						printf ("%s alanina maasinizin %lf kadarini harcamaktasiniz.\n", alan, giderYuzde);
+						printf("%lf", toplamGider);
+						
+					}
+				}
+			}
+		}
+	} */
+	
+	return 0;
+	
+}
