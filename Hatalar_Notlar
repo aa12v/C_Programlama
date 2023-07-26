@@ -4,3 +4,7 @@
 4- [Note] previous declaration as 'double eksikSaat1'
 5- [Error] 'ay' was not declared in this scope
 6- [Error] expected ';' before '}' token
+
+7- [Error] expected unqualified-id before 'return'
+8- [Error] expected declaration before '}' token
+9- [Error] invalid types 'char[int]' for array subscript
