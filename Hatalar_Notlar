@@ -1,0 +1,6 @@
+1- [Error] jump to case label [-fpermissive]
+2- [Error] crosses initialization of 'double dusSaat1'
+3- [Error] conflicting declaration 'int eksikSaat1'
+4- [Note] previous declaration as 'double eksikSaat1'
+5- [Error] 'ay' was not declared in this scope
+6- 
