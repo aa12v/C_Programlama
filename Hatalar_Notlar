@@ -3,4 +3,4 @@
 3- [Error] conflicting declaration 'int eksikSaat1'
 4- [Note] previous declaration as 'double eksikSaat1'
 5- [Error] 'ay' was not declared in this scope
-6- 
+6- [Error] expected ';' before '}' token
