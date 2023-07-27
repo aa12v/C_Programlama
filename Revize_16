@@ -1599,20 +1599,38 @@ int main() {
 																			double eksikGelinenSaat;
 																
 																			printf("Ise gelinmeyen gun sayisi: ");
-																			scanf("%d", &eksikGelinenGun);
-																								
-																			printf("Ise gelinmeyen saat sayisi: ");
-																			scanf("%lf", &eksikGelinenSaat);
 																			
-																			double MaastanDusulecekGunParasi = eksikGelinenGun * gunlukMaasDegeri;
-																			double MaastanDusulecekSaatParasi = eksikGelinenSaat * saatlikMaasDegeri;
+																			if(scanf("%d", &eksikGelinenGun) != 1) {
+																				
+																				printf("Eksik gelinen gun degeri yalnızca sayısal degerlerden oluşmalıdır!");
+																				
+																			} else {
+																				
+																				if(eksikGelinenGun < 0 ) {
+																					
+																					printf("Eksik gelinen gun degeri negatif olamaz!");
+																					
+																				} else if (eksikGelinenGun >= 0 && eksikGelinenGun <= ayKacGun) {
+																					
+																					printf("Ise gelinmeyen saat sayisi: ");
+																					scanf("%lf", &eksikGelinenSaat);
 																			
-																			double alinacakToplamMaas = 0;
-																
-																			alinacakToplamMaas = (gunlukMaasDegeri * ayKacGun) + normalGunMesaiKazanc + resmiGunMesaiKazanc + tatilGunMesaiKazanc - MaastanDusulecekGunParasi - MaastanDusulecekSaatParasi;
-																
-																			printf("Alacaginiz Maas: %lf", alinacakToplamMaas);
-																			
+																					double MaastanDusulecekGunParasi = eksikGelinenGun * gunlukMaasDegeri;
+																					double MaastanDusulecekSaatParasi = eksikGelinenSaat * saatlikMaasDegeri;
+																					
+																					double alinacakToplamMaas = 0;
+																		
+																					alinacakToplamMaas = (gunlukMaasDegeri * ayKacGun) + normalGunMesaiKazanc + resmiGunMesaiKazanc + tatilGunMesaiKazanc - MaastanDusulecekGunParasi - MaastanDusulecekSaatParasi;
+																		
+																					printf("Alacaginiz Maas: %lf", alinacakToplamMaas);
+																					
+																				} else {
+																					
+																					printf("Bu ay %d gun bulunmaktadir :) ", ayKacGun);
+																					
+																				}
+																				
+																			}
 																		} else {
 																			
 																			printf("Matematiksel olarak 1 aylık mesai degeri mantikli degil!");
