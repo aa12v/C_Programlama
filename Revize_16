@@ -1550,35 +1550,53 @@ int main() {
 													double MesaiSaatiNormal, MesaiSaatiResmi, MesaiSaatiTatil;
 													
 													printf("Normal gun yapilan mesai saati sayisi: ");
-													scanf("%lf", &MesaiSaatiNormal);
-										
-													printf("Resmi tatil gunu yapilan mesai saati sayisi: ");
-													scanf("%lf", &MesaiSaatiResmi);
 													
-													printf("%s tatil gunu yapilan mesai saati sayisi: ", tatilGunu);
-													scanf("%lf", &MesaiSaatiTatil);
-													
-													double normalGunMesaiKazanc = katNormal * MesaiSaatiNormal * saatlikMaasDegeri;	
-													double resmiGunMesaiKazanc = katResmi * MesaiSaatiResmi * saatlikMaasDegeri;
-													double tatilGunMesaiKazanc = katTatil * MesaiSaatiTatil * saatlikMaasDegeri;
-													
-													int eksikGelinenGun;
-													double eksikGelinenSaat;
-										
-													printf("Ise gelinmeyen gun sayisi: ");
-													scanf("%d", &eksikGelinenGun);
-																		
-													printf("Ise gelinmeyen saat sayisi: ");
-													scanf("%lf", &eksikGelinenSaat);
-													
-													double MaastanDusulecekGunParasi = eksikGelinenGun * gunlukMaasDegeri;
-													double MaastanDusulecekSaatParasi = eksikGelinenSaat * saatlikMaasDegeri;
-													
-													double alinacakToplamMaas = 0;
-										
-													alinacakToplamMaas = (gunlukMaasDegeri * ayKacGun) + normalGunMesaiKazanc + resmiGunMesaiKazanc + tatilGunMesaiKazanc - MaastanDusulecekGunParasi - MaastanDusulecekSaatParasi;
-										
-													printf("Alacaginiz Maas: %lf", alinacakToplamMaas);	
+													if (scanf("%lf", &MesaiSaatiNormal) != 1) {
+														
+														printf("Mesai saati degeri yalnızca sayısal degerlerden oluşmalıdır!");
+														
+													} else {
+														
+														if(MesaiSaatiNormal < 0) {
+															
+															printf("Mesai saati negatif olamaz!");
+															
+														} else if (MesaiSaatiNormal >= 0 && MesaiSaatiNormal <= 560) {
+															
+															printf("Resmi tatil gunu yapilan mesai saati sayisi: ");
+															scanf("%lf", &MesaiSaatiResmi);
+															
+															printf("%s tatil gunu yapilan mesai saati sayisi: ", tatilGunu);
+															scanf("%lf", &MesaiSaatiTatil);
+															
+															double normalGunMesaiKazanc = katNormal * MesaiSaatiNormal * saatlikMaasDegeri;	
+															double resmiGunMesaiKazanc = katResmi * MesaiSaatiResmi * saatlikMaasDegeri;
+															double tatilGunMesaiKazanc = katTatil * MesaiSaatiTatil * saatlikMaasDegeri;
+															
+															int eksikGelinenGun;
+															double eksikGelinenSaat;
+												
+															printf("Ise gelinmeyen gun sayisi: ");
+															scanf("%d", &eksikGelinenGun);
+																				
+															printf("Ise gelinmeyen saat sayisi: ");
+															scanf("%lf", &eksikGelinenSaat);
+															
+															double MaastanDusulecekGunParasi = eksikGelinenGun * gunlukMaasDegeri;
+															double MaastanDusulecekSaatParasi = eksikGelinenSaat * saatlikMaasDegeri;
+															
+															double alinacakToplamMaas = 0;
+												
+															alinacakToplamMaas = (gunlukMaasDegeri * ayKacGun) + normalGunMesaiKazanc + resmiGunMesaiKazanc + tatilGunMesaiKazanc - MaastanDusulecekGunParasi - MaastanDusulecekSaatParasi;
+												
+															printf("Alacaginiz Maas: %lf", alinacakToplamMaas);	
+															
+														} else {
+															
+															printf("Matematiksel olarak 1 aylık mesai degeri mantikli degil!");
+															
+														}
+													}
 												}
    											}
 										}
