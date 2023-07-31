@@ -21,6 +21,6 @@ strcat Fonksiyonu:
 	Kütüphanesi: <string.h>
 	İşlevi: String iki değişken degerini birbirine ekler birlikte yazdırır.00
 	Kullanımı: strcat(degisken1, degisken2)
-	Kullanım Açıklaması: Degisken2'yi degisken1'e ekler ve birlikte yazdırır.
+	Kullanım Açıklaması: Degisken2'yi degisken1'e ekler ve son durumda degisken1'de degisken1 + degisken2 şeklindedir.
 
 //------------------------------
