@@ -20,7 +20,7 @@ strcat Fonksiyonu:
 
 	Kütüphanesi: <string.h>
 	İşlevi: String iki değişken degerini birbirine ekler birlikte yazdırır.00
-	Kullanımı: 
-	Kullanım Açıklaması: 
+	Kullanımı: strcat(degisken1, degisken2)
+	Kullanım Açıklaması: Degisken2'yi degisken1'e ekler ve birlikte yazdırır.
 
 //------------------------------
