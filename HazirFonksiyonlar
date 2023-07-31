@@ -24,3 +24,16 @@ strcat Fonksiyonu:
 	Kullanım Açıklaması: Degisken2'yi degisken1'e ekler ve son durumda degisken1'de degisken1 + degisken2 şeklindedir.
 
 //------------------------------
+
+strcmp Fonksiyonu:
+
+	Kütüphanesi: <string.h>
+	İşlevi: String iki karakteri birbiri ile karşılaştırır. Büyük küçük duyarlılıgı vardır.
+		1.Durum: Birbirinin aynısı ise 0 döndürür.
+		2.Durum: String1 degeri string2 degerinden alfabetik olarak önce geliyorsa sıfırdan küçük döndürür.
+		3.Durum: String1 degeri string2 degerinden alfabetik olarak sonra geliyorsa sıfırdan büyük döndürür.
+	Kullanımı: strcmp(string1, string2);
+	Kullanım Amacı: Girilen 2 karakter birbirine eşit ise  döndürür, değil ise 1 döndürür.
+
+//------------------------------
+
