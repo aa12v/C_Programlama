@@ -44,8 +44,17 @@ strrev Fonksiyonu:
 
 //------------------------------
 
+strlwr Fonksiyonu:
+
+	Kütüphanesi: <string.h>
+	İşlevi: String karakter dizisini küçük harfe çevirir.
 
 //------------------------------
+
+strupr Fonksiyonu:
+
+	Kütüphanesi: <string.h>
+	İşlevi: String karakter dizisini büyük harfe çevirir.
 
 
 //------------------------------
