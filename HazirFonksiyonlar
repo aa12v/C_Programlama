@@ -37,3 +37,17 @@ strcmp Fonksiyonu:
 
 //------------------------------
 
+strrev Fonksiyonu:
+
+	Kütüphanesi: <string.h>
+	İşlevi: String karakter dizisini tersten yazdırmaya yarar.
+
+//------------------------------
+
+
+//------------------------------
+
+
+//------------------------------
+
+
