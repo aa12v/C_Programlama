@@ -1,0 +1,26 @@
+//------------------------------
+
+strlen Fonksiyonu: 
+	Kütüphanesi: <string.h>
+	İşlevi: Bir karakter dizisinin kaç karakterden oluştugunu bulur.
+	Kullanımı: strlen(deger);
+
+//------------------------------
+
+strcpy Fonksiyonu:
+
+	Kütüphanesi: <string.h>
+	İşlevi: String değişken degeri seçilen diger değişken içerisine kopyalanır.
+	Kullanımı: strcpy(DegistirilecekDegisken, KopyalanacakDegisken);
+	Kullanım Açıklaması: KopyalanacakDegisken degeri DegistirilecekDegisken degeri içine kopyalanır.
+
+//------------------------------
+
+strcat Fonksiyonu:
+
+	Kütüphanesi: <string.h>
+	İşlevi: String iki değişken degerini birbirine ekler birlikte yazdırır.00
+	Kullanımı: 
+	Kullanım Açıklaması: 
+
+//------------------------------
