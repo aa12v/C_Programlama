@@ -1,0 +1,56 @@
+
+			char soru;
+			double saat;
+			double deger;
+			
+			tekrar:
+			
+			printf("Sirketiniz gunluk ucreti 'MAAS / 30 / 7.5' olarak mi hesapliyor? (e/h) ");
+			
+			if (scanf(" %s", &soru) != 1) {
+				
+				printf("Sadece parantez içerisinde bulunan harflerden biri tercih edilmelidir!");
+				
+			} else {
+			
+				if (strlen(&soru) > 1 && strlen(&soru) <= 0) {
+					
+					printf("Bir adet harf girisi yapilmalidir!");
+					
+				} else if (strlen(&soru) <= 1 && strlen(&soru) > 0) {
+					
+					if (soru == 'e' || soru == 'E') {
+						
+						saat = 7.5;
+						printf("%lf", saat);
+						
+					} else if (soru == 'h' || soru == 'H') {
+						
+						printf("Sirketiniz gunluk ucreti 'MAAS / 30 / ?' kac seklinde hesaplamaktadir? ");
+						
+						if (scanf("%lf", &deger) != 1) {
+							
+							printf("Sadece sayi giriniz!");
+							
+						} else {
+							
+							if (deger > 7.5 && deger <= 10 ) {
+								printf("%lf", deger);
+								saat = deger;
+								printf("%lf", saat);
+								
+							} else {
+								
+								printf("Girilen deger matematiksel olarak mantikli bir deger degil!");
+								system("cls");
+								goto tekrar;
+								
+							}
+						}
+					} else {
+						
+						printf("Sadece parantez içerisinde verilen karakterleri kullaniniz!"); 
+						
+					}
+				}
+			}
